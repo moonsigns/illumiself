@@ -179,13 +179,13 @@ copyright {
 .whatsnew-grid {
     display: grid;
     grid-template-columns: 420px 1fr;
-    gap: 50px;
+    gap: 70px;
     align-items: flex-start;
 }
 
 .whatsnew-text {
-    max-width: 420px;
-    font-size: 15px;
+    width: 88%;
+    max-width: 400px;
 }
 
 .whatsnew-text h2 {
@@ -198,19 +198,29 @@ copyright {
     margin-bottom: 16px;
     color: #475569;
     line-height: 1.4;
-    font-size: 13px;
+    font-size: 14.5px;
 }
 
 .whatsnew-video {
     display: flex;
     justify-content: flex-end;
+
+    margin-right: -50px;
 }
 
-.whatsnew-video video {
-    width: 100%;
+/* .whatsnew-video video {
+    width: 112%;
     max-width: 1200px;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+} */
+
+.whatsnew-video video {
+    width: 116%;
+    max-width: 1200px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    clip-path: inset(1px 10px 1px 10px);
+    margin-left: 0%;
 }
 
 .media-video {
@@ -358,9 +368,29 @@ copyright {
         display: none;
     }
 
+    .whatsnew-grid {
+        gap: 20px;
+    }
+
+    .whatsnew-text {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .whatsnew-video {
+        margin-right: 0px;
+    }
+
+    .whatsnew-video video {
+        width: 100%;
+        max-width: 600px;
+
+        clip-path: inset(0px 0px 0px 0px);
+    }
+
     .carousel {
         width: 100%;
-        margin-left:2%;
+        margin-left: 2%;
         height: 200px;
     }
 
