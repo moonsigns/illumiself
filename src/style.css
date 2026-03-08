@@ -11,6 +11,7 @@ body {
     font-family: Inter, system-ui, Arial;
     color: #0f172a;
     background: white;
+    overflow-x: hidden;
 }
 
 .container {
@@ -356,8 +357,23 @@ copyright {
 
 @media(max-width:800px) {
 
+    html,
+    body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+
     .hero h1 {
         font-size: 32px;
+    }
+
+    .btn-primary {
+        font-size: 13px;
+    }
+
+    .btn-secondary {
+        font-size: 13px;
     }
 
     .media-grid {
@@ -374,7 +390,7 @@ copyright {
 
     .whatsnew-text {
         width: 100%;
-        max-width: 400px;
+        max-width: 800px;
     }
 
     .whatsnew-video {
@@ -385,18 +401,25 @@ copyright {
         width: 100%;
         max-width: 600px;
 
+        margin-right: 0px;
+
         clip-path: inset(0px 0px 0px 0px);
     }
 
     .carousel {
         width: 100%;
-        margin-left: 2%;
+        margin-left: 0%;
         height: 200px;
     }
 
 
     .carousel-img {
         height: 200px;
+    }
+
+    .media-video {
+        width: 100%;
+        max-width: 400px;
     }
 
 
