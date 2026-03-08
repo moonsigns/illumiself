@@ -1,7 +1,7 @@
 {
   "name": "le3ed",
   "version": "0.1.0",
-  "homepage": "https://moonsigns.github.io/le3ed/",
+  "homepage": "https://le3ed.com",
   "private": true,
   "dependencies": {
     "@stripe/stripe-js": "^2.4.0",
