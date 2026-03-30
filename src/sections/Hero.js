@@ -1,31 +1,39 @@
-import heroBackground from "../img/hero-background-2.svg";
+import logo from "../img/LOGO_ILLUMISELF.avif";
+import room from "../img/room_picture.avif";
+import outside from "../img/outside_picture.avif";
+
+import FeatherIcon from "feather-icons-react";
 
 export default function Hero() {
     return (
-        <section
-            className="hero"
-            style={{
-                backgroundImage: `url(${heroBackground})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-            }}
-        >
+        <section className="hero">
 
-            <div className="container hero-container">
+            <div className="hero-logo">
+                <img src={logo} alt="Illumiself" className="hero-logo-img" />
+            </div>
 
-                <h1>Digital Solutions for the Signage Industry</h1>
 
-                <p className="hero-subtitle">
-                    Le3eD specializes in dynamic and customized solutions for signage companies.
-                    We evaluate your operations and design systems to improve quoting, project
-                    management, pricing structures and internal processes.
-                </p>
-
-                <div className="hero-buttons">
-                    <a href="#product" className="btn-primary">Explore Services</a>
-                    <a href="#contact" className="btn-secondary">Contact</a>
+            <div className="hero-images">
+                <div className="hero-card">
+                    <img src={room} alt="" />
+                    <div className="hero-text hero-text-highlight">
+                        <p>Conheça nossa Loja</p>
+                        <h2>Atendimento Exclusivo</h2>
+                        <span>Preço e Qualidade</span>
+                    </div>
                 </div>
 
+                <div className="hero-card">
+                    <img src={outside} alt="" />
+                </div>
+            </div>
+            
+
+            <div className="hero-portal">
+                <a href="#portal" className="portal-btn">
+                    Illumiself Portal
+                    <p style={{ fontSize: "12px" }}>Em construção</p>
+                </a>
             </div>
 
         </section>
