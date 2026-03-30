@@ -1,4 +1,4 @@
-import room from "../img/room_picture.avif";
+import room from "../img/LED_panels.png";
 import FeatherIcon from "feather-icons-react";
 
 export default function Consulting() {

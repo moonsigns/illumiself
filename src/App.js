@@ -88,15 +88,21 @@ function App() {
         <div className="nav-inner">
 
           <div className="logo">
-            <a href="#top">
+            <div onClick={() => document.getElementById("top").scrollIntoView({ behavior: "smooth" })}>
               <img src={logo} alt="Illumiself" className="nav-logo" />
-            </a>
+            </div>
           </div>
 
           <div className="nav-links">
-            <a href="#products">Produtos</a>
-            <a href="#testimonials">Depoimentos</a>
-            <a href="#contact">Contato</a>
+            <a onClick={() => document.getElementById("products").scrollIntoView({ behavior: "smooth" })}>
+              Produtos
+            </a>
+            <a onClick={() => document.getElementById("testimonials").scrollIntoView({ behavior: "smooth" })}>
+              Depoimentos
+            </a>
+            <a onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}>
+              Contato
+            </a>
           </div>
 
         </div>
@@ -156,9 +162,12 @@ function App() {
       {/* FOOTER */}
       <Footer openModal={setModalType} />
 
-      <a href="#top" className="scroll-top">
+      <div
+        className="scroll-top"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
         <FeatherIcon icon="arrow-up" />
-      </a>
+      </div>
 
     </div>
   );

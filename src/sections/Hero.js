@@ -1,6 +1,7 @@
 import logo from "../img/LOGO_ILLUMISELF.avif";
 import room from "../img/room_picture.avif";
-import outside from "../img/outside_picture.avif";
+// import outside from "../img/outside_picture.avif";
+import outside from "../img/outside_picture_no_logo.png";
 
 import FeatherIcon from "feather-icons-react";
 

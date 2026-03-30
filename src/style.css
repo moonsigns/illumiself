@@ -287,7 +287,7 @@ h2 {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(63, 63, 63, 0.9);
+    background: rgba(63, 63, 63, 0.87);
     backdrop-filter: blur(12px);
     z-index: 1000;
     padding: 10px 20px;
@@ -310,6 +310,7 @@ h2 {
 .nav-links {
     display: flex;
     gap: 25px;
+    cursor: pointer;
 }
 
 .nav-links a {
@@ -695,7 +696,7 @@ svg {
     }
 
     .hero-card img {
-        height: 260px;
+        height: 360px;
     }
 
     .hero-text h2 {
