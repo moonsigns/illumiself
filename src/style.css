@@ -25,12 +25,14 @@ h2 {
 .hero {
     text-align: center;
     padding: 40px 20px;
+    
 }
 
 .hero-logo img {
     width: 550px;
     margin-top: 60px;
     margin-bottom: 40px;
+    
 }
 
 .hero-text-highlight {

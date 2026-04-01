@@ -24,7 +24,7 @@ export default function Consulting() {
 
                     <div>
                         <FeatherIcon icon="map-pin" />
-                        <span>Av. Assis Brasil, 7351 - Porto Alegre/RS</span>
+                        <span>Av. Assis Brasil, 7341 - Porto Alegre/RS</span>
                     </div>
 
                 </div>

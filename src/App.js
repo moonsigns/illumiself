@@ -87,7 +87,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-inner">
 
-          <div className="logo">
+          <div className="logo" style={{cursor:"pointer"}}>
             <div onClick={() => document.getElementById("top").scrollIntoView({ behavior: "smooth" })}>
               <img src={logo} alt="Illumiself" className="nav-logo" />
             </div>
