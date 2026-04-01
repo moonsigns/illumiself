@@ -1,7 +1,7 @@
 {
   "name": "illumiself",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://illumiself.com.br",
   "private": true,
   "dependencies": {
     "@stripe/stripe-js": "^2.4.0",
