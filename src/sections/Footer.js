@@ -13,12 +13,12 @@ export default function Footer({ openModal }) {
                     <p
                         onClick={() =>
                             window.open(
-                                "https://www.google.com/maps?q=Av.+Assis+Brasil+7351+Porto+Alegre",
+                                "https://www.google.com/maps?q=Av.+Assis+Brasil+7341+Porto+Alegre",
                                 "_blank"
                             )
                         }
                     >
-                        Av. Assis Brasil 7351
+                        Av. Assis Brasil 7341
                     </p>
 
                     <p onClick={() => openModal("contact")}>
