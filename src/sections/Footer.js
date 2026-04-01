@@ -73,7 +73,7 @@ export default function Footer({ openModal }) {
             <div className="footer-map">
                 <iframe
                     title="map"
-                    src="https://www.google.com/maps?q=Av.+Assis+Brasil+7351+Porto+Alegre&output=embed"
+                    src="https://www.google.com/maps?q=Av.+Assis+Brasil+7341+Porto+Alegre&output=embed"
                     width="100%"
                     height="350"
                     style={{ border: 0, borderRadius: "10px", marginTop: "30px" }}

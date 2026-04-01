@@ -37,7 +37,7 @@ function App() {
             <h2>Contato</h2>
             <p>📧 illumiself@gmail.com</p>
             <p>📞 (51) 99860-3836</p>
-            <p>📍 Av. Assis Brasil 7351</p>
+            <p>📍 Av. Assis Brasil 7341</p>
           </>
         );
 
