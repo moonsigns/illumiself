@@ -10,7 +10,7 @@ export default function WhatsNew() {
                 <div className="benefit-text">
                     <span className="benefit-badge">DESTAQUE</span>
                     <strong>Frete grátis</strong>
-                    <small>acima de R$250</small>
+                    <small>acima de R$400</small>
                 </div>
             </div>
 

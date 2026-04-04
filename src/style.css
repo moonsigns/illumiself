@@ -46,6 +46,19 @@ h2 {
     margin-bottom: 0px;
 }
 
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* controls distance between ☰ and logo */
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: #ffd000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
 
 .portal-btn {
     display: inline-block;
@@ -656,6 +669,10 @@ svg {
 /* ===================== */
 @media (max-width: 768px) {
 
+    .logo {
+        display: none;
+    }
+
     body {
         padding-top: 80px;
     }
@@ -666,26 +683,43 @@ svg {
     }
 
     /* NAVBAR */
-    .nav-inner {
-        flex-direction: column;
+     .nav-inner {
+        flex-direction: row; /* 🔥 force horizontal */
+        justify-content: space-between;
         align-items: center;
+    }
+
+    .nav-left {
+        gap: 0; /* remove extra spacing */
+    }
+
+    .nav-links {
         gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+
+    .navbar {
+        padding: 10px 15px;
     }
 
     .nav-logo {
         max-height: 30px;
     }
 
-    .nav-links {
+    /*.nav-links {
         flex-wrap: wrap;
         justify-content: center;
         gap: 15px;
-    }
+    }*/
 
-    .navbar {
+    /*.navbar {
         padding: 20px 10px;
         margin-bottom: 40px;
-    }
+    }*/
 
     /* HERO */
     .hero-logo img {
