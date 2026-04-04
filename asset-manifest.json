@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.66ff79f4.css",
-    "main.js": "/static/js/main.9245939f.js",
+    "main.css": "/static/css/main.b54a6683.css",
+    "main.js": "/static/js/main.a27dcf88.js",
     "static/js/453.9798c66b.chunk.js": "/static/js/453.9798c66b.chunk.js",
     "static/media/outside_picture_no_logo.png": "/static/media/outside_picture_no_logo.b024f9f509cec5bb66d8.png",
     "static/media/LED_panels.png": "/static/media/LED_panels.9157a4cc7dd3586a3fad.png",
     "static/media/product_pictures.png": "/static/media/product_pictures.df8b7945f1d8f00c2713.png",
-    "static/media/Illumiself_logo_text.png": "/static/media/Illumiself_logo_text.ce6bdb01d9b84a203db1.png",
+    "static/media/LOGO ILLUMISELF.png": "/static/media/LOGO ILLUMISELF.e8e6503a9640ec9bb276.png",
     "static/media/room_picture.avif": "/static/media/room_picture.a0889e7532f0c239052b.avif",
     "static/media/LOGO_ILLUMISELF.avif": "/static/media/LOGO_ILLUMISELF.ca097b6cc23dacc97c6b.avif",
     "index.html": "/index.html",
-    "main.66ff79f4.css.map": "/static/css/main.66ff79f4.css.map",
-    "main.9245939f.js.map": "/static/js/main.9245939f.js.map",
+    "main.b54a6683.css.map": "/static/css/main.b54a6683.css.map",
+    "main.a27dcf88.js.map": "/static/js/main.a27dcf88.js.map",
     "453.9798c66b.chunk.js.map": "/static/js/453.9798c66b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66ff79f4.css",
-    "static/js/main.9245939f.js"
+    "static/css/main.b54a6683.css",
+    "static/js/main.a27dcf88.js"
   ]
 }
